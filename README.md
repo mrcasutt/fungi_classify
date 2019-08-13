@@ -1,4 +1,12 @@
-A FastAI model to classify 133 different species of fungi using a resnet 50 CNN 
+A naive approach to classify mushrooms. 
+Following the Fastai course, I decided to try and build a mushroom classification model to learn the basics of image classification.
+The model uses a systematic approach to improve recognition through training the model on different sizes of images fed to the model. 
+As of now, the model is about 78% accurate, which isn't too bad, but could be better. 
+  - Things to do: 
+    - Clean Dataset more
+    - Use larger images for training
+    - Use original dataset from Kaggle 
+    - Find a way to clean data efficiently
 
 Fungi Data originaly found through a kaggle competition on Fungi classification Original Kaggle competition can be found here: https://github.com/visipedia/fgvcx_fungi_comp#data https://svampe.databasen.org/citation
 
